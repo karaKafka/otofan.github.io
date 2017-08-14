@@ -105,7 +105,7 @@ div {
 	float: right;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
 	* {
 		margin: 0;
 		padding: 0;
@@ -114,8 +114,9 @@ div {
 	.flex-model-2, .flex-model-3{
 		text-align: center;
 		display: block;
-		width: 100%;
-		margin: %5;
+		width: 90%;
+		margin: 0 5%;
+		margin-top: 50px;
 	}
 
 	.flex-item-model2 img {
@@ -136,7 +137,6 @@ div {
 	    flex-flow: column wrap;
 	    text-align: center;
 	    width: 100%;
-	    margin-top: 1%;
 		box-shadow: 2px 2px 3px #ffa800;
 	}
 
@@ -144,7 +144,6 @@ div {
 		text-align: center;
 		display: inline-block;
 		width: 100%;
-		margin: 0;
 		border: 3px solid Red;	
 
 	}
